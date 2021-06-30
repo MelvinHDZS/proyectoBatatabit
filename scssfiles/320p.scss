@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+}
+
+$bitcoin-orange: #f7931a;
+$soft-orange: #ffe9d4;
+$secondary-blue: #1a9af7;
+$soft-blue: #e7f5ff;
+$warm-black: #201e1c;
+$warm-black2: #282623;
+$grey: #bababa;
+$off-white: #faf8f7;
+$justwhite: #ffffff;
+
+@mixin titles {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  text-align: center;
+}
+
+@mixin titles-advantages {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  text-align: start;
+}
+
+@mixin paragraphs {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  text-align: center;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
+  width: 100%;
+  min-width: 320px;
+  max-width: 768px;
+  height: 300px;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+  img {
+    justify-content: center;
+    padding-top: 3rem;
+  }
+  h1 {
+    @include titles;
+    color: $justwhite;
+    padding-top: 2rem;
+  }
+  p {
+    @include paragraphs;
+    color: $soft-orange;
+    padding-top: 2rem;
+  }
+}
+.button {
+  background-color: #faf8f7;
+  width: 80%;
+  height: 40px;
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.1);
+  position: absolute;
+  border-radius: 5px;
+  top: 280px;
+  left: 35px;
+  a {
+    text-decoration: none;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.4rem;
+    line-height: 1.823rem;
+    text-align: center;
+    padding-top: 11px;
+    color: $warm-black;
+    display: block;
+  }
+}
+
+main {
+  padding-top: 50px;
+  height: auto;
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  section {
+    padding-bottom: 40px;
+    h2 {
+      @include titles;
+      color: $warm-black;
+    }
+    p {
+      @include paragraphs;
+      color: $grey;
+      padding-top: 20px;
+    }
+  }
+
+  .advantages {
+    background-color: $warm-black;
+    padding-top: 40px;
+    h3 {
+      @include titles;
+      color: $justwhite;
+    }
+    p {
+      @include paragraphs;
+      color: #808080;
+      padding-bottom: 20px;
+    }
+    .advantages__components {
+      background-color: #282623;
+      margin: 0 auto;
+      width: 90%;
+      span {
+        background-image: url("/assets/icons/clock.svg");
+        display: block;
+        width: auto;
+        height: auto;
+      }
+      .advantages--titles {
+        color: $justwhite;
+        @include titles-advantages();
+        padding: 0%;
+      }
+      p {
+        width: 90%;
+        margin: 0 auto;
+        text-align: start;
+      }
+    }
+  }
+}

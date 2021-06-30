@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+html {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif; }
+
+header {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
+  width: 100%;
+  min-width: 320px;
+  max-width: 768px;
+  height: 300px;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem; }
+  header img {
+    justify-content: center;
+    padding-top: 3rem; }
+  header h1 {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 2rem; }
+  header p {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    text-align: center;
+    color: #ffe9d4;
+    padding-top: 2rem; }
+
+.button {
+  background-color: #faf8f7;
+  width: 80%;
+  height: 40px;
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.1);
+  position: absolute;
+  border-radius: 5px;
+  top: 280px;
+  left: 35px; }
+  .button a {
+    text-decoration: none;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.4rem;
+    line-height: 1.823rem;
+    text-align: center;
+    padding-top: 11px;
+    color: #201e1c;
+    display: block; }
+
+main {
+  padding-top: 50px;
+  height: auto; }
+  main img {
+    display: block;
+    margin: 0 auto; }
+  main section {
+    padding-bottom: 40px; }
+    main section h2 {
+      font-weight: 700;
+      font-style: normal;
+      font-size: 2.4rem;
+      line-height: 2.6rem;
+      text-align: center;
+      color: #201e1c; }
+    main section p {
+      font-weight: 500;
+      font-style: normal;
+      font-size: 1.4rem;
+      line-height: 1.8rem;
+      text-align: center;
+      color: #bababa;
+      padding-top: 20px; }
+  main .advantages {
+    background-color: #201e1c;
+    padding-top: 40px; }
+    main .advantages h3 {
+      font-weight: 700;
+      font-style: normal;
+      font-size: 2.4rem;
+      line-height: 2.6rem;
+      text-align: center;
+      color: #ffffff; }
+    main .advantages p {
+      font-weight: 500;
+      font-style: normal;
+      font-size: 1.4rem;
+      line-height: 1.8rem;
+      text-align: center;
+      color: #808080;
+      padding-bottom: 20px; }
+    main .advantages .advantages__components {
+      background-color: #282623;
+      margin: 0 auto;
+      width: 90%; }
+      main .advantages .advantages__components span {
+        background-image: url("/assets/icons/clock.svg");
+        display: block;
+        width: auto;
+        height: auto; }
+      main .advantages .advantages__components .advantages--titles {
+        color: #ffffff;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.8rem;
+        line-height: 2.6rem;
+        text-align: start;
+        padding: 0%; }
+      main .advantages .advantages__components p {
+        width: 90%;
+        margin: 0 auto;
+        text-align: start; }
