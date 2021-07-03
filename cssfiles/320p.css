@@ -140,3 +140,104 @@ main {
     position: absolute;
     bottom: -880px;
     left: calc(50% - 86px); }
+  main .plans {
+    padding-bottom: 35px; }
+    main .plans h4 {
+      font-weight: 700;
+      font-style: normal;
+      font-size: 2.4rem;
+      line-height: 2.6rem;
+      text-align: center;
+      color: #201e1c;
+      padding-top: 50px; }
+    main .plans p {
+      font-weight: 500;
+      font-style: normal;
+      font-size: 1.4rem;
+      line-height: 1.8rem;
+      text-align: center;
+      width: 90%;
+      margin: 0 auto; }
+  main .plans__slider {
+    background-color: #faf8f7;
+    display: flex; }
+    main .plans__slider .plans__container {
+      display: relative;
+      height: auto;
+      padding-top: 30px;
+      border-radius: 8px;
+      margin: 20px auto;
+      width: 70%;
+      background-color: #ffffff;
+      box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+      text-align: center; }
+      main .plans__slider .plans__container .plans__container-card {
+        position: absolute;
+        left: calc(50% - 60px);
+        bottom: -160%;
+        border-radius: 8px;
+        width: 40%;
+        height: 4%;
+        background-color: #f7931a;
+        font-family: Inter;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.2rem;
+        line-height: 1.452rem;
+        text-align: center;
+        color: #ffffff;
+        padding-top: 10px; }
+      main .plans__slider .plans__container .plans__container-title {
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        color: #000000;
+        text-align: center; }
+      main .plans__slider .plans__container .plans__container-price {
+        font-family: Inter;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 5.2rem;
+        line-height: 62.93px;
+        letter-spacing: -8%;
+        color: #000000; }
+        main .plans__slider .plans__container .plans__container-price span {
+          font-family: Inter;
+          font-weight: 500;
+          font-style: normal;
+          font-size: 1.2rem;
+          line-height: 14.52px;
+          color: #363636; }
+      main .plans__slider .plans__container .plans__container-text {
+        font-family: Inter;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.2rem;
+        line-height: 14.52px;
+        color: #757575;
+        padding-bottom: 30px; }
+      main .plans__slider .plans__container .plans__container-space {
+        height: 30px; }
+      main .plans__slider .plans__container .plans__container-choose {
+        background-color: #faf8f7;
+        border-color: #f7931a;
+        border-style: solid;
+        border-radius: 4px;
+        height: 48px;
+        width: 150px;
+        margin-bottom: 20px; }
+        main .plans__slider .plans__container .plans__container-choose p {
+          color: #201e1c;
+          font-weight: 700;
+          font-style: normal;
+          font-size: 1.4rem;
+          line-height: 1.823rem;
+          display: inline-block;
+          text-align: center;
+          vertical-align: text-bottom;
+          padding-top: 0%;
+          padding-bottom: 3px; }
+        main .plans__slider .plans__container .plans__container-choose img {
+          display: inline-block;
+          vertical-align: text-bottom; }
