@@ -191,6 +191,11 @@ main {
         line-height: 1.452rem;
         text-align: center;
         color: #ffffff; }
+      main .plans__slider .plans__container .container--basic {
+        background-color: #1a9af7; }
+      main .plans__slider .plans__container .container--premium {
+        background-color: #bababa;
+        color: #201e1c; }
       main .plans__slider .plans__container .plans__container-title {
         font-weight: 500;
         font-style: normal;
@@ -245,10 +250,43 @@ main {
         main .plans__slider .plans__container .plans__container-choose img {
           display: inline-flex;
           padding: 10px 12px 0px 0px; }
+      main .plans__slider .plans__container .container--choosebasic {
+        border-color: #1a9af7; }
+      main .plans__slider .plans__container .container--choosepremium {
+        background-color: #282623; }
+        main .plans__slider .plans__container .container--choosepremium p {
+          color: #ffffff; }
     main .plans__slider .container--firstcard {
       margin-left: 50px; }
     main .plans__slider .container--secondcard {
       margin-left: 50px;
       margin-right: 50px; }
     main .plans__slider .container--thirdcard {
-      margin-right: 50px; }
+      margin-right: 50px;
+      background-color: #201e1c; }
+      main .plans__slider .container--thirdcard .plans__container-title {
+        color: #ffffff; }
+      main .plans__slider .container--thirdcard .plans__container-price {
+        color: #ffffff; }
+        main .plans__slider .container--thirdcard .plans__container-price span {
+          color: #ffffff; }
+
+footer {
+  height: auto;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #f7931a; }
+  footer ul {
+    list-style: none; }
+    footer ul li {
+      font-weight: 500;
+      font-style: normal;
+      font-size: 1.4rem;
+      line-height: 1.8rem;
+      text-align: center;
+      text-align: start; }
+      footer ul li a {
+        text-decoration: none;
+        color: #ffffff; }

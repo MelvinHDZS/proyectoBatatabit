@@ -30,7 +30,7 @@
       </p>
     </header>
     <div class="button">
-      <a href="" role="button">Conoce Nuestro Planes</a>
+      <a href="#plans-button" role="button">Conoce Nuestro Planes</a>
     </div>
     <main>
       <section class="main__exchange">
@@ -103,19 +103,19 @@
         <p>Con&oacute;celo hoy.</p>
         <img src="../assets/img/bitcoinbaby.jpg" alt="" />
       </div>
-      <section class="plans">
+      <section class="plans" id="plans-button">
         <h4>Escoge el plan que mejor se ajuste a ti.</h4>
         <p>Cualquier plan te da acceso completo a nuestra plataforma.</p>
         <section class="plans__slider">
           <!--Inicia la primera tarjeta-->
           <article class="plans__container container--firstcard">
-            <p class="plans__container-card">Recomendado</p>
+            <p class="plans__container-card container--basic">Basic</p>
             <h5 class="plans__container-title">Pago Anual</h5>
             <p class="plans__container-price"><span>$</span>49</p>
             <p class="plans__container-text">
               *Ahorras $129 comprando el plan mensual.
             </p>
-            <button class="plans__container-choose">
+            <button class="plans__container-choose container--choosebasic">
               <p>Escoger este</p>
               <img src="../assets/icons/orange-right-arrow.svg" alt="" />
             </button>
@@ -135,24 +135,29 @@
           </article>
           <!--Inicia la tercera tarjeta-->
           <article class="plans__container container--thirdcard">
-            <p class="plans__container-card">Recomendado</p>
-            <h5 class="plans__container-title">Pago Anual</h5>
+            <p class="plans__container-card container--premium">Premium</p>
+            <h5 class="plans__container-title">Acceso de por vida.</h5>
             <p class="plans__container-price"><span>$</span>49</p>
             <p class="plans__container-text">
               *Ahorras $129 comprando el plan mensual.
             </p>
-            <button class="plans__container-choose">
+            <button class="plans__container-choose container--choosepremium">
               <p>Escoger este</p>
               <img src="../assets/icons/orange-right-arrow.svg" alt="" />
             </button>
           </article>
         </section>
       </section>
-
       <!--Terminana las tarjetas-->
-      <section>
-        <h5>¿Preguntas? Aqu&iacute; estamos para ti.</h5>
-      </section>
+      <section></section>
     </main>
+    <footer>
+      <ul>
+        <li><a href="">Linkedin</a></li>
+        <li><a href="">Crunchbase</a></li>
+        <li><a href="">Hackernews</a></li>
+      </ul>
+      <img src="../assets/img/logo-footer.svg" alt="" />
+    </footer>
   </body>
 </html>

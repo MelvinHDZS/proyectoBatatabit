@@ -229,6 +229,14 @@ main {
         text-align: center;
         color: $justwhite;
       }
+      //Modificador nombres de paquetes Basic Recomendado Premium
+      .container--basic {
+        background-color: $secondary-blue;
+      }
+      .container--premium {
+        background-color: $grey;
+        color: $warm-black;
+      }
       .plans__container-title {
         font-weight: 500;
         font-style: normal;
@@ -291,6 +299,17 @@ main {
           padding: 10px 12px 0px 0px;
         }
       }
+
+      .container--choosebasic {
+        border-color: $secondary-blue;
+      }
+      .container--choosepremium {
+        background-color: $warmer;
+        p {
+          color: $justwhite;
+        }
+      }
+      //Modificador borde boton paquetes
     }
     .container--firstcard {
       margin-left: 50px;
@@ -301,6 +320,36 @@ main {
     }
     .container--thirdcard {
       margin-right: 50px;
+      background-color: $warm-black;
+      .plans__container-title {
+        color: $justwhite;
+      }
+      .plans__container-price {
+        color: $justwhite;
+        span {
+          color: $justwhite;
+        }
+      }
+    }
+  }
+}
+footer {
+  height: auto;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: $bitcoin-orange;
+  ul {
+    list-style: none;
+    li {
+      @include paragraphs;
+      text-align: start;
+
+      a {
+        text-decoration: none;
+        color: $justwhite;
+      }
     }
   }
 }
